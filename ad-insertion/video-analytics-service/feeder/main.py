@@ -33,7 +33,7 @@ analytic_rest_msg_template = {
     },
     "destination": {
         "type": "kafka",
-        "hosts": kafka_host,
+        "host": kafka_host[0],
         "topic": "seg_analytics_data"
     }
 }
